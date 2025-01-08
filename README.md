@@ -62,6 +62,7 @@ Unless otherwise stated, for each question:
 5. The first 5 rows of your resulting DataFrame should look something like this:
 
 
+<img width="978" alt="Screenshot 2025-01-07 at 9 08 35 p m" src="https://github.com/user-attachments/assets/6cc6c08c-09cc-44bd-ad3a-e807e24530c3" />
 
 
 
