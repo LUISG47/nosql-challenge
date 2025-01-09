@@ -56,16 +56,27 @@ Unless otherwise stated, for each question:
 + Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 1. Which establishments have a hygiene score equal to 20?
+Cleaning the dataframe to only show Business Name/Type and ID should get you the following top 10 table
+
+![Screenshot 2025-01-09 at 5 52 21 p m](https://github.com/user-attachments/assets/08344dc1-a2cf-4181-889f-104ccd29cd23)
+
+
 2. Which establishments in London have a RatingValue greater than or equal to 4? Hint: The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search
+Cleaning the dataframe to only show Business Name/Type and ID should get you the following top 10 table
+
+![Screenshot 2025-01-09 at 5 57 36 p m](https://github.com/user-attachments/assets/b485f415-7814-4326-a2f0-a0ba6150ad13)
+
+
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? Hint: You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
+Cleaning the dataframe to only show BusinessName, RatingValue, Hygiene score, Latitude, Longitude columns should get you the following top 5 table
+
+![Screenshot 2025-01-09 at 5 57 57 p m](https://github.com/user-attachments/assets/4a382698-4c48-44a9-9fe7-d8f94378ba99)
+
+
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. Hint: You will need to use the aggregation method to answer this.
-5. The first 5 rows of your resulting DataFrame should look something like this:
+The first 5 rows of your resulting DataFrame should look like this:
 
-
-<img width="978" alt="Screenshot 2025-01-07 at 9 08 35 p m" src="https://github.com/user-attachments/assets/6cc6c08c-09cc-44bd-ad3a-e807e24530c3" />
-
-
-
+![Screenshot 2025-01-09 at 5 58 39 p m](https://github.com/user-attachments/assets/7899a291-40e4-49d8-917a-533f9b6cb2fb)
 
 
 
