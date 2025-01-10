@@ -7,6 +7,13 @@ The UK Food Standards Agency evaluates various establishments across the United 
 Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 1. Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Copy the text you used to import your data from your Terminal to a markdown cell in your notebook.
+
+The text that should be inserted into terminal should be:
+
+**mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json**
+
+For this make sure that you are located in the **Resources** folder in which the file establishments.json is located 
+
 2. Within your notebook, import the libraries you need: PyMongo and Pretty Print (pprint).
 3. Create an instance of the Mongo Client.
 4. Confirm that you created the database and loaded the data properly:
