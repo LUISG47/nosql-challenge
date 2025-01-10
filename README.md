@@ -85,17 +85,8 @@ Cleaning the dataframe to only show BusinessName, RatingValue, Hygiene score, La
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. Hint: You will need to use the aggregation method to answer this.
 The first 5 rows of your resulting DataFrame should look like this:
 
-![Screenshot 2025-01-09 at 5 58 39 p m](https://github.com/user-attachments/assets/7899a291-40e4-49d8-917a-533f9b6cb2fb)
 
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-01-09 at 9 39 54 p m](https://github.com/user-attachments/assets/8efdabb9-ebe7-45f6-b41f-5b60258e6627)
 
 
 
