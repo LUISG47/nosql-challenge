@@ -58,13 +58,15 @@ Unless otherwise stated, for each question:
 1. Which establishments have a hygiene score equal to 20?
 Cleaning the dataframe to only show Business Name/Type and ID should get you the following top 10 table
 
-![Screenshot 2025-01-09 at 5 52 21 p m](https://github.com/user-attachments/assets/08344dc1-a2cf-4181-889f-104ccd29cd23)
+![Screenshot 2025-01-09 at 6 01 25 p m](https://github.com/user-attachments/assets/63d02782-fd94-4442-bcd8-1e6f211aed97)
+
 
 
 2. Which establishments in London have a RatingValue greater than or equal to 4? Hint: The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search
 Cleaning the dataframe to only show Business Name/Type and ID should get you the following top 10 table
 
-![Screenshot 2025-01-09 at 5 57 36 p m](https://github.com/user-attachments/assets/b485f415-7814-4326-a2f0-a0ba6150ad13)
+![Screenshot 2025-01-09 at 6 02 48 p m](https://github.com/user-attachments/assets/7d1ca59a-04f9-405d-b572-db8cc3c42562)
+
 
 
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? Hint: You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
